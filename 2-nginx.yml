@@ -1,7 +1,7 @@
 - name: install nginx and start nginx
   hosts: frontend
   tasks:
-    - name: Install ntpdate
+    - name: Install inginx
       ansible.builtin.package:
         name: nginx
         state: present
